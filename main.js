@@ -10,6 +10,7 @@ let btnDisappear = document.querySelector("#btnDisappear")
 
 let paragrafi = document.querySelectorAll(".paragrafo")
 console.log (paragrafi)
+
 paragrafi.forEach( p=> {
     btnDisappear.addEventListener ("click", ()=> {
         p.classList.toggle("d-none")
